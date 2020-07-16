@@ -1,0 +1,32 @@
+/* top and bottom text */
+#footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+#header {
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.left {
+    background-color: greenyellow;
+    float: left;
+}
+
+.right {
+    background-color: red;
+    float: right;
+}
+
+/* middle */
+#middle {
+    background-color: turquoise;
+    position: relative;
+    text-align: center;
+    top: 20vh;
+}
