@@ -1,57 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-    </head>
+<html>
 
-    <body>
+<head>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Google Clone</title>
+</head>
+
+<body>
+    <div id="parent">
         <div id="header">
-            <div class="left">
-                <a href="">About</a>
-                <a href="">Store</a>
+            <div>
+                <a href="http://google.com/about">About</a>
+                <a href="http://google.com/store">Store</a>
             </div>
 
-            <div class="right">
-                <a class="" href="">Gmail</a>
-                <a href="">Images</a>
-                <a href="">Store</a>
-                <a href="">Sign in</a>
+            <div>
+                <a href="http://google.com/gmail">Gmail</a>
+                <a href="http://google.com/images">Images</a>
+                <button id="sign-in">Sign in</button>
             </div>
         </div>
 
         <div id="middle">
             <div>
-                <img
-                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-                    alt="google image"
-                />
+                <img height="92" width="272"
+                    src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
             </div>
 
-            <div>
-                <input type="text" />
-            </div>
+            <input type="text" />
 
             <div>
-                <input type="submit" value="Google Search" />
-                <input type="submit" value="I'm Feeling Lucky" />
+                <button class="search-buttons">Google Search</button>
+                <button class="search-buttons">I'm Feeling Lucky</button>
             </div>
         </div>
 
         <div id="footer">
-            <div class="left">
-                <a href="">Advertising</a>
-                <a href="">Business</a>
-                <a href="">How Search works</a>
+            <div>
+                <a href="http://google.com/advertising">Advertising</a>
+                <a href="http://google.com/business">Business</a>
+                <a href="http://google.com/how-search-works">How Search
+                    works</a>
             </div>
 
-            <div class="right">
-                <a href="">Privacy</a>
-                <a href="">Terms</a>
-                <a href="">Settings</a>
+            <div style="margin-left: -100px">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
+                    width=12>
+                <a href="http://google.com/business">Carbon neutral since
+                    2007</a>
+            </div>
+
+            <div>
+                <a href="http://google.com/privacy">Privacy</a>
+                <a href="http://google.com/terms">Terms</a>
+                <a href="http://google.com/settings">Settings</a>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
